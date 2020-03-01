@@ -26,6 +26,7 @@ public class Solution {
             int cur_x = temp.get(0);
             int cur_y = temp.get(1);
 
+            System.out.println(String.format("X = %d, Y = %d, Z=%d", cur_x, cur_y, z));
             if (cur_x == z || cur_y == z || cur_x + cur_y == z) {
                 return true;
             }
